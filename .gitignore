@@ -1,3 +1,7 @@
+/sparking.iml
+/.gradle
+/build
+/.idea
 *.class
 
 # Mobile Tools for Java (J2ME)
