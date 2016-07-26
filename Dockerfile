@@ -2,6 +2,7 @@ FROM java:8
 
 MAINTAINER Fred Thiele <ferdy_news@gmx.de>
 
+EXPOSE 4567
 
 COPY . /tmp
 
