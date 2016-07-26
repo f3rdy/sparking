@@ -6,6 +6,8 @@ EXPOSE 4567
 
 COPY . /tmp
 
+RUN 	ls -la /tmp
+
 RUN 	cd /tmp && \
 	./gradlew distZip && \
 	unzip build/distributions/*.zip -d /opt && \
