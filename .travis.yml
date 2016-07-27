@@ -1,5 +1,7 @@
 jdk:
   - oraclejdk8
 script:
+  - set -e
   - ./gradlew info
+  - set +e
   - ./gradlew distZip	
