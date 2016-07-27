@@ -5,6 +5,11 @@ import static spark.Spark.*;
 public class HelloWorld {
     public static void main(String[] args) {
 
+	get("/fahrenheit451/", (request, response) -> {
+	    response.status(451);
+	    return "Temperature where books burn..."
+	}
+
         get("/", (request, response) -> {
             response.status(401);
             return "Go Away!!!";
