@@ -7,8 +7,8 @@ public class HelloWorld {
 
 	get("/fahrenheit451/", (request, response) -> {
 	    response.status(451);
-	    return "Temperature where books burn..."
-	}
+	    return "Temperature where books burn...";
+	});
 
         get("/", (request, response) -> {
             response.status(401);
